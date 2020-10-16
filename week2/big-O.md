@@ -18,21 +18,15 @@ Write a function called
 The function should return all pairs of numbers found in the array that add up to the target number.
 
 ```js
-
+// Example 1:
 hasTargetSum([-1, 3, 8, 12, 4, 11, 7], 10)
 // should return
-// [[-1, 11], [3, 7]]
-
-// it is fine if you return repeats
-// ex:
-// [[-1, 11], [3, 7], [11, -1], [7, 3]]
-
+// [[-1, 11], [3, 7]] 
 
 // Example 2:
 hasTargetSum([22, 19, 4, 6, 30, -6], 25)
-// returns
-// [[19, 6]]
-// or [[19, 6], [6, 19]]
+// should return
+// [[19, 6]] 
 ```
 4. Algorithm
 5. Big O Notation  
