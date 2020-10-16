@@ -9,6 +9,7 @@
 1. What is an interviewer looking for? 
 2. What is good code? 
 3. What are the steps to approach a whiteboarding question? 
+
 Write a function called
 `hasTargetSum` that receives two arguments:
   * an array of integers
