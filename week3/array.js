@@ -1,4 +1,62 @@
-// Exercise: Merge Sorted Arrays: 
+// Build your own array
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Exercise: Merge Sorted Arrays
 // Given two sorted array, merge these two arrays into one sorted array
 
 function merge(arr1, arr2) {
