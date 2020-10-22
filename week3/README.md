@@ -6,13 +6,12 @@
 - [ ] Understand and use hash tables/ hashmaps
 
 ## Discussion Question
-1. What is Big O? 
-2. What is constant time? 
-3. What is linear time? 
-4. What is quadratic time? 
-5. Define algorithm? 
-6. Define data structure 
-7. What is the runtime of the following programs? Why?
+1. Define algorithm? 
+2. What is Big O? 
+3. What is constant time? 
+4. What is linear time? 
+5. What is quadratic time? 
+6. What is the runtime of the following programs? Why?
 
 #1 
 ```js
@@ -64,3 +63,4 @@
         return goodBagel
     }
 ```
+7. Define data structure 
