@@ -16,7 +16,9 @@ function hasTargetSum(arr, sum) {
     let finalResult = [] // O(1)
     for (let i = 0; i < arr.length; i++) {  // O(n)
         let currentNumber = arr[i] // O(1)
+        // console.log("currentNumber", arr[i])
         arr.forEach((number) => { // O(n)
+            console.log(arr[i], number)
             if (number + currentNumber === sum) { // O(1)
                 finalResult.push([number, currentNumber]) // O(1)
             }
