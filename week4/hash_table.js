@@ -1,5 +1,16 @@
 // HashTable
+// It's a Object -- it hold information 
+// Contains key-value pairs
+// Collection of key-value pairs 
 
+const groceryCart = {
+    lox: 10,
+    meat: 1, 
+    milk: 3, 
+    chocolate: 100, 
+    veggie: 15, 
+    chip: 3
+}
 
 
 
@@ -32,19 +43,51 @@
 //It should return 2
 
 //Given an array = [2,1,1,2,3,5,1,2,4]:
-//It should return 1
+//It should return 1 
 
 //Given an array = [2,3,4,5]:
 //It should return undefined
 
 
-function firstRecurringCharacter(input) {
+// Hash Map Approach:  
+// Create a variable that is a hashmap/ hash table 
+// Loop through each element in the array and store their value to true because we already saw them  
+    // check if the hashmap already has this value 
+    // if true, i will return that element 
+// if there is no match, i will return undefined 
 
+function firstRecurringCharacter(input) {
+    let hashMap = {} 
+
+    for (let i = 0; i < input.length; i++) { // O(n)
+        if (!hashMap[input[i]]) {      
+            hashMap[input[i]] = true
+        } else {
+            return input[i]
+        }
+    }
+
+    return undefined 
 }
 
 
-
+// O(n)
 firstRecurringCharacter([2,5,5,2,3,5,1,2,4]) // 5
+
+// { 2: true, 5: true }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -79,11 +79,11 @@ class HashICreated {
         let address = this._hash(key)
         const currentBucket = this.data[address]
         if (currentBucket) {
-            if (currentBucket.length === 1) {
+            if (currentBucket.length === 1) { // O(1)
                 return currentBucket[0][1]
             }
 
-            for ( let i = 0; i < currentBucket.length; i++) {
+            for ( let i = 0; i < currentBucket.length; i++) { // O(n)
                 if (currentBucket[i][0] === key) {
                     return currentBucket[i][1]
                 }  
