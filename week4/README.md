@@ -41,14 +41,14 @@
     - search O(1)
 
 ## Collision
-    - Computers have limited space and only a limited space is alloted for the hash map which can lead to collision 
-        - https://www.cs.usfca.edu/~galles/visualization/OpenHash.html
-        - this slows down reading and writing (O(n/k)) -- k is the size of your hash table --> becomes an O(n) runtime
-        - two ways to deal with collision 
-            - chaining - storing in a linked list 
-            - open addressing 
-                - linear probing 
-                - double-hashing
+- Computers have limited space and only a limited space is alloted for the hash map which can lead to collision 
+    - https://www.cs.usfca.edu/~galles/visualization/OpenHash.html
+    - this slows down reading and writing (O(n/k)) -- k is the size of your hash table --> becomes an O(n) runtime
+    - two ways to deal with collision 
+        - chaining - storing in a linked list 
+        - open addressing 
+            - linear probing 
+            - double-hashing
 
 ## Building your own hash table
 ```javascript 
