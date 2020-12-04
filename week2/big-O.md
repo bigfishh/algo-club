@@ -7,27 +7,9 @@
 
 ## Discussion Question
 1. What is an interviewer looking for? 
-    - Thought-process/ approach 
-    - Technical understanding 
-    - Vibe/Cultural Fit/Add
-    - Coding 
 2. What is good code? 
-    - Readability
-        - Five lines or less for Ruby---> keeping your code DRY, single responsibility, consistent code styling
-    - Maintaibility --- this is where big O comes it 
-        - Time 
-            - minutes, seconds, hours, days 
-            - big O to measure time 
-        - Space  
 3. What are the steps to approach a whiteboarding question? 
-    - Read/carefully pay attention to the question
-    - Wilson: Repeat the question back to them in your own words <--- check for understanding
-    - Chenyun: Ask questions ( ALOT OF THEM ) / examples 
-    - Christy: Approach/ Pseudocode 
-    - Dong: Go ahead and code 
-    - Daisy: Test your code 
-    - Wilson: Analyze and Optimize 
-<!-- Wilson, Chenyun, Christy, Dong, Daisy, Wilson -->
+
 Write a function called
 `hasTargetSum` that receives two arguments:
   * an array of integers
