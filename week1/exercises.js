@@ -1,19 +1,21 @@
 // Directions: Calculate the big O of each function
 
 // Exercise #1: 
-let ingredients = ["chicken", "carrots", "celery", "noodles"]
+let ingredients = ["chicken", "carrots", "celery", "noodles", "lox", "coffee"]
 
 function makeSoup(input) {
-    let thingsToPrep = input 
-    let minsItWillTakeToDoEverything = 30 
+    let thingsToPrep = input // O(1)
+    let minsItWillTakeToDoEverything = 30  // O(1)
 
-    for (let i = 0; i < thingsToPrep.length; i++) {
+    for (let i = 0; i < thingsToPrep.length; i++) { // O(n)
         prepThisItem()
         minsItWillTakeToDoEverything++
     }
 
-    return minsItWillTakeToDoEverything
+    return minsItWillTakeToDoEverything // O(1)
 }
+
+// O(1 + 1 + n + 1) -> O(3 + n) -> 0(n)
 
 makeSoup(ingredients)
 
@@ -21,24 +23,42 @@ makeSoup(ingredients)
 
 // Exercise #2: 
 function doSomethingRandom(input) {
-    let firstThing = 20
-    let secondThing = "blueberries"
-    let thirdThing = "peanut butter jelly"
+    let firstThing = 20 // O(1)
+    let secondThing = "blueberries" // O(1)
+    let thirdThing = "peanut butter jelly" // O(1)
 
-    for (let i = 0; i < input; i++) {
+    for (let i = 0; i < input; i++) { // O(n^2) // 100
         firstThing++ 
-        let items = i + 1
+        let items = i + 1 
+        for (let j = 0; j < input; j++) { 
+            let numberOfFoodAdventure = j + 1 
+            let somethingElse = j * 50
+            let counting = j * 22
+        } 
     } 
 
-    for (let j = 0; j < input; j++) {
+    for (let j = 0; j < input; j++) { // O(n)  // 10 
         let numberOfFoodAdventure = j + 1 
         let somethingElse = j * 50
         let counting = j * 22
     } 
 
-    return "abcdefg"
+    for (let j = 0; j < input; j++) { // O(n) 
+        let numberOfFoodAdventure = j + 1 
+        let somethingElse = j * 50
+        let counting = j * 22
+    } 
+
+    for (let j = 0; j < input; j++) { // O(n) 
+        let numberOfFoodAdventure = j + 1 
+        let somethingElse = j * 50
+        let counting = j * 22
+    } 
+
+    return "abcdefg" // O(1)
 }
 
+// O(1 + 1 + 1 + n + n + 1) => O(4 + 3n + n^2) => O(n^2)
 doSomethingRandom(10)
 
 //-------------------------------------------
