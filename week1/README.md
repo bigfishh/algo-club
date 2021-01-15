@@ -12,7 +12,7 @@ here's a little avatar: the last airbender (the tv series, not the live-action m
 - [ ] understand what interviewers are looking for during white-boarding interviews 
 - [ ] have a solid whiteboarding approach 
 - [ ] stand your ground in front of Big O terminology 
-- [ ] identify code that runs in constant, linear, and quadratic time 
+- [ ] identify code that runs in constant, logarithmic, linear, and quadratic time 
 
 ## Discussion Question
 1. what do you think interviewers are looking for during whiteboarding interviews? 
@@ -127,6 +127,7 @@ function findFriend(arrayOfFriends, targetFriend) {
 }
 findFriend(["anna", "ben", "chandler", "dan", "jessie", "joey", "monica", "rachel", "ross", "phoebe"], "joey")
 ```
+![linear search](https://www.programmingsimplified.com/images/c/linear-search.gif)
 - ### Linear O(n)
     - As the size of the inputs grows, the number of operation will also increase proportionally linearly
     - Has a straight line on a graph 
