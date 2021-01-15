@@ -95,6 +95,9 @@ function sayHiToFirstFriend(arrayOfFriends) {
 }
 sayHiToFirstFriend(["monica", "rachel", "chandler", "ross", "joey", "phoebe"])
 ```
+
+<img src="https://camo.githubusercontent.com/95f5c89d711a177c920e74ffebca2ddcb8e15134b92b5ff63e56dbf6bcb97edb/68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f6c314a394857424b4c70323059664e41592f67697068792e676966" alt="dictionary" width="300"/>
+
 - ### Logarithmic O(log(n))
     - If doubling the number of elements you are iterating over doesn't double the amount of work
     - Logarithm means very slow growing! It's really `log base 2`: the 2 comes from cutting the number of operation in half and then in half again, and again, and etc. 
@@ -199,7 +202,7 @@ findMutualFriends(["nancy", "lucy", "brian"], ["richard", "katie", "susan", "pop
     }
 
 
-    array = [1, 3, 5, 7, 9, 11]
+    let array = [1, 3, 5, 7, 9, 11]
 
     hasTargetSum(array, 8)
 
