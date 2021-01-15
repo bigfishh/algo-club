@@ -82,7 +82,7 @@ hasTargetSum([-1, 3, 8, 12, 4, 11, 7], 10) ==>  [[-1, 11], [3, 7]]
 </details>
 
 <p align="center">
-    <img src="https://miro.medium.com/max/2928/1*5ZLci3SuR0zM_QlZOADv8Q.jpeg" alt="big O runtime" width="500"/>
+    <img src="https://miro.medium.com/max/2928/1*5ZLci3SuR0zM_QlZOADv8Q.jpeg" alt="big O runtime" width="700"/>
 </p>
 
 ## Types of Big O runtime 
