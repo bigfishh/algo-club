@@ -3,7 +3,7 @@
 - primary language: javascript 
 - practice, practice, practice ( + sometimes getting some pointers in the right direction)
 
-here's an avatar: the last airbender (the tv series, not the live-action movie) analogy for you: 
+here's a little avatar: the last airbender (the tv series, not the live-action movie) analogy for you~
 
 ![Firelord Ozai](https://media3.giphy.com/media/qprVSR8zTojRe/giphy.webp?cid=ecf05e47rtnfmsl41eolg3ure3bw1m0lr8fvoim7n23tlq8h&rid=giphy.webp)
 ![Water Scroll](https://static.wikia.nocookie.net/avatar/images/3/3b/Waterbending_scroll.png/revision/latest/scale-to-width-down/666?cb=20140112202026)
@@ -16,7 +16,7 @@ here's an avatar: the last airbender (the tv series, not the live-action movie) 
 
 ## Discussion Question
 1. what do you think interviewers are looking for during whiteboarding interviews? 
-<details><summary>-----</summary>
+<details><summary>----- click here 👀</summary>
 <p>
 
 1. critical thinking
@@ -32,7 +32,7 @@ here's an avatar: the last airbender (the tv series, not the live-action movie) 
 </p>
 
 2. what does it mean to write good code? 
-<details><summary>-----</summary>
+<details><summary>----- click here 👀</summary>
 <p>
 
 1. readability
@@ -42,7 +42,7 @@ here's an avatar: the last airbender (the tv series, not the live-action movie) 
 </details>
 
 3. what would you consider a solid whiteboarding approach?
-<details><summary>-----</summary>
+<details><summary>----- click here 👀</summary>
 <p>
 
 1. Repeat the questions back, in your own words
@@ -55,6 +55,7 @@ here's an avatar: the last airbender (the tv series, not the live-action movie) 
 </p>
 </details>
 
+### Whiteboarding practice 🖥
 ```js 
 Write a function called
 `hasTargetSum` that receives two arguments:
@@ -67,7 +68,7 @@ hasTargetSum([-1, 3, 8, 12, 4, 11, 7], 10) ==>  [[-1, 11], [3, 7]]
 
 4. what is big O? 
 - how do you measure time? 
-<details><summary>-----</summary>
+<details><summary>----- click here 👀</summary>
 <p>
 
 - a way to measure and compare an algorithm's efficiency.
@@ -216,9 +217,9 @@ findMutualFriends(["nancy", "lucy", "brian"], ["richard", "katie", "susan", "pop
 - Even if you don't get to the optimized/refactored solution, you still did an awesome job by articulating yourself and acknowledging the Big O of your initial solution and how you could refactor it. 
 
 ## Resources
-- Leet Code
-- Hacker Rank
-- codewars
-- Pramp
-- Cracking the Coding Interview book
-- Big O Explained with Examples
+- [Leet Code](https://leetcode.com/)
+- [Hacker Rank](https://www.hackerrank.com/auth/signup?h_r=home&h_l=body_middle_left_button&h_v=1)
+- [codewars](https://www.codewars.com/)
+- [Pramp](https://www.pramp.com/#/)
+- [Cracking the Coding Interview book](http://www.crackingthecodinginterview.com/)
+- [Big O Explained with Examples](https://developerinsider.co/big-o-notation-explained-with-examples/)
