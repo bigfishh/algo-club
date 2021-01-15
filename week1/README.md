@@ -28,7 +28,7 @@ here's a little avatar: the last airbender (the tv series, not the live-action m
 </details>
 
 <p align="center">
-<img src="https://i.imgur.com/J1svNp7.jpg" alt="wtf code quality measurement" width="250"/>
+<img src="https://i.imgur.com/J1svNp7.jpg" alt="wtf code quality measurement" width="450"/>
 </p>
 
 2. what does it mean to write good code? 
@@ -82,7 +82,7 @@ hasTargetSum([-1, 3, 8, 12, 4, 11, 7], 10) ==>  [[-1, 11], [3, 7]]
 </details>
 
 <p align="center">
-    <img src="https://miro.medium.com/max/2928/1*5ZLci3SuR0zM_QlZOADv8Q.jpeg" alt="big O runtime" width="350"/>
+    <img src="https://miro.medium.com/max/2928/1*5ZLci3SuR0zM_QlZOADv8Q.jpeg" alt="big O runtime" width="500"/>
 </p>
 
 ## Types of Big O runtime 
