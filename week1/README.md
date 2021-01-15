@@ -3,7 +3,10 @@
 - primary language: javascript 
 - practice, practice, practice ( + sometimes getting some pointers in the right direction)
 
-// insert waterscroll + firelord picture here
+here's an avatar: the last airbender (the tv series, not the live-action movie) analogy for you: 
+
+![Firelord Ozai](https://media3.giphy.com/media/qprVSR8zTojRe/giphy.webp?cid=ecf05e47rtnfmsl41eolg3ure3bw1m0lr8fvoim7n23tlq8h&rid=giphy.webp)
+![Water Scroll](https://static.wikia.nocookie.net/avatar/images/3/3b/Waterbending_scroll.png/revision/latest/scale-to-width-down/666?cb=20140112202026)
 
 ## SWBATs
 - [ ] understand what interviewers are looking for during white-boarding interviews 
@@ -13,7 +16,7 @@
 
 ## Discussion Question
 1. what do you think interviewers are looking for during whiteboarding interviews? 
-<details><summary></summary>
+<details><summary>-----</summary>
 <p>
 
 1. critical thinking
@@ -24,10 +27,12 @@
 </p>
 </details>
 
-// insert wtf code quality picture here
+<p align="center">
+<img src="https://i.imgur.com/J1svNp7.jpg" alt="wtf code quality measurement" width="250"/>
+</p>
 
 2. what does it mean to write good code? 
-<details><summary></summary>
+<details><summary>-----</summary>
 <p>
 
 1. readability
@@ -37,7 +42,7 @@
 </details>
 
 3. what would you consider a solid whiteboarding approach?
-<details><summary></summary>
+<details><summary>-----</summary>
 <p>
 
 1. Repeat the questions back, in your own words
@@ -50,11 +55,19 @@
 </p>
 </details>
 
-// whiteboarding exercise 
+```js 
+Write a function called
+`hasTargetSum` that receives two arguments:
+  * an array of integers
+  * a target integer
+
+The function should return all pairs of numbers found in the array that add up to the target number.
+hasTargetSum([-1, 3, 8, 12, 4, 11, 7], 10) ==>  [[-1, 11], [3, 7]]
+```
 
 4. what is big O? 
 - how do you measure time? 
-<details><summary></summary>
+<details><summary>-----</summary>
 <p>
 
 - a way to measure and compare an algorithm's efficiency.
@@ -67,7 +80,9 @@
 </p>
 </details>
 
-// insert big O runtime picture 
+<p align="center">
+    <img src="https://miro.medium.com/max/2928/1*5ZLci3SuR0zM_QlZOADv8Q.jpeg" alt="big O runtime" width="350"/>
+</p>
 
 ## Types of Big O runtime 
 - ### Constant O(1)
