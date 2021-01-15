@@ -221,6 +221,7 @@ findMutualFriends(["nancy", "lucy", "brian"], ["richard", "katie", "susan", "pop
 - Even if you don't get to the optimized/refactored solution, you still did an awesome job by articulating yourself and acknowledging the Big O of your initial solution and how you could refactor it. 
 
 ## Resources
+- Flatiron Weekly Algo Club on slack: #flatiron-algorithm-club
 - [Leet Code](https://leetcode.com/)
 - [Hacker Rank](https://www.hackerrank.com/auth/signup?h_r=home&h_l=body_middle_left_button&h_v=1)
 - [codewars](https://www.codewars.com/)
