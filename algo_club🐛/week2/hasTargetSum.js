@@ -18,20 +18,46 @@
 //3. return array 
 
 function hasTargetSum(arr, target) {
-    let answerArr = [] // O(1)
+    // let answerArr = [] // O(1)
+    // for (let i = 0; i < arr.length; i++) { // O(n)
+    //     for (let j = i + 1; j < arr.length; j++) { // O(n)
+    //         if (arr[i] + arr[j] === target) { // O(1)
+    //             answerArr.push([arr[i], arr[j]]) // O(1)
+    //         }
+    //     }
+    // } 
+    // return answerArr // O(1)
+
+    let resultsArr = []
+    let hash = {}
+
     for (let i = 0; i < arr.length; i++) { // O(n)
-        for (let j = i + 1; j < arr.length; j++) { // O(n)
-            if (arr[i] + arr[j] === target) { // O(1)
-                answerArr.push([arr[i], arr[j]]) // O(1)
-            }
+        hash[arr[i]] = true // O(1)
+        if (hash[target - arr[i]]) {
+            resultsArr.push([arr[i], target - arr[i]])
         }
-    } 
-    return answerArr // O(1)
+    }
+
+    return resultsArr
 }
 
 // O(2 + ((1 * 1 * n) * n)) => O(2 + (1n * n)) => O(2 + n^2) => O(n^2)
 
 console.log(hasTargetSum([-1, 3, 8, 12, 4, 11, 7], 10))
+// [11, -1] => [[11, -1], [7, 3]]
+
+// {
+//     -1 : true, 
+//     3 : true, 
+//     8 : true, 
+//     12 : true, 
+//     4 : true, 
+//     11 : true, 
+//     7 : true
+// }
+
+
+
 // [[-1, 11], [3, 7]]
 
 // Whiteboarding Approach! 

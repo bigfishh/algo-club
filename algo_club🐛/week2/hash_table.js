@@ -1,3 +1,4 @@
+
 // Creating a Hash
 class HashICreated {
     constructor(size) {
@@ -42,8 +43,8 @@ class HashICreated {
 }
 
 const newHash = new HashICreated(13)
-console.log(newHash._hash("lox"))
-// console.log(newHash.set("taco", 26))
+console.log(newHash._hash("chai"))
+// console.log(newHash.set("cake", 20))
 // console.log(newHash.set("lox", 10))
 // console.log(newHash.set("sushi", 100))
 
