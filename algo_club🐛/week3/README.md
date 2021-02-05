@@ -1,5 +1,5 @@
 ## Outline
-- [ ] Review last week's [leetcode problem](https://leetcode.com/explore/interview/card/top-interview-questions-easy/92/array/578/)
+- [ ] Review [Contains Duplicate](https://leetcode.com/explore/interview/card/top-interview-questions-easy/92/array/578/)
 - [ ] Array Discussion
     - What are they? 
     - Runtimes for Access, Search, Insertion, and Deletion
