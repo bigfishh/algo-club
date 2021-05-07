@@ -133,5 +133,10 @@ function plantsRoutine(plants) {
     `O(1 + n + n^2 + n + 100)` ⇒ `O(1 + 2n + n^2 + 100)` ⇒ `O(1 + n + n^2 + 100)` ⇒ `O(n + n^2)` ⇒ `O(n^2)`
 
 **Conclusion** 
-
-- There's also space complexity
+- why is it important? 
+    - Time/Space complexity 
+    - As programmers, it's important to balance the efficiency of an algorithm and the amount of space in memory this algorithm requires.
+    - what the worse case scenario is 
+- Don't prematurely optimize! 
+	- Start with the brute force / naive solution first even if it is a loop within another loop. 
+	- Even if you don't get to the optimized/refactored solution, you still did an awesome job by articulating yourself and acknowledging the Big O of your initial solution and how you could refactor it. 
